@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AugmentedReality/static/css/main.09017060.css",
+    "main.js": "/AugmentedReality/static/js/main.f97401f4.js",
+    "index.html": "/AugmentedReality/index.html",
+    "main.09017060.css.map": "/AugmentedReality/static/css/main.09017060.css.map",
+    "main.f97401f4.js.map": "/AugmentedReality/static/js/main.f97401f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09017060.css",
+    "static/js/main.f97401f4.js"
+  ]
+}
