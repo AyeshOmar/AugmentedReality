@@ -12,7 +12,7 @@ const XrHitModel = () => {
 
   
 //pour le detection et la position de mesh 
-  const reticleRef = useRef();
+const reticleRef = useRef();
 console.log(reticleRef);
 
   const [models, setModels] = useState([]);
@@ -85,7 +85,7 @@ console.log(e);
 
       {isPresenting && (
           models.map(({ position, id }) => {
-            return <Model key={id} position={position} scale={[0.7, 0.7, 0.7]} />;
+            return <Model key={id} position={position} scale={[0.3, 0.3, 0.3]} />;
           })
         )}
 
