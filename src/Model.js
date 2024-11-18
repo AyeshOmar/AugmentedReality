@@ -7,7 +7,7 @@ export default function Model({props}) {
     const [loading, setLoading] = useState(true);
     const [model, setModel] = useState(null);
 
-    const modelPath=`${process.env.PUBLIC_URL}/scan_shoe_07-freepoly.org.glb`;
+    const modelPath=`${process.env.PUBLIC_URL}/sofa.glb`;
 
 
     useEffect(() => {
