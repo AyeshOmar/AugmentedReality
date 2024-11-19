@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useGLTF, Text } from "@react-three/drei";
+import { Text } from "@react-three/drei";
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 
 export default function Model({props}) {
@@ -11,6 +11,7 @@ export default function Model({props}) {
 
 
 console.log(modelPath);
+
     useEffect(() => {
         if (modelPath) {
             const loader = new GLTFLoader();
