@@ -7,9 +7,9 @@ export default function Model({props}) {
     const [loading, setLoading] = useState(true);
     const [model, setModel] = useState(null);
 
-    const modelPath=`${process.env.PUBLIC_URL}/sofa.glb`;
+    const modelPath=`${process.env.PUBLIC_URL}/chaise_de_bureau.glb`;
 
-
+console.log(modelPath);
     useEffect(() => {
         if (modelPath) {
             const loader = new GLTFLoader();
@@ -49,7 +49,7 @@ export default function Model({props}) {
 
     // Render the model only when it's not null
     return model ? (
-        <group scale={[2, 2, 2]} dispose={null}>
+        <group scale={[0.7,0.7,0.7]} dispose={null}>
             <primitive object={model} />
         </group>
     ) : null;
