@@ -7,7 +7,7 @@ export default function Model({props}) {
     const [loading, setLoading] = useState(true);
     const [model, setModel] = useState(null);
 
-    const modelPath = `${process.env.PUBLIC_URL}/chaise_de_bureau.glb?v=${Date.now()}`;
+    const modelPath = `${process.env.PUBLIC_URL}/chaiseoo.glb`;
 
 
 console.log(modelPath);
